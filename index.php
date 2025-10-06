@@ -1,6 +1,9 @@
-<?php 
-var_dump(1 < 2);
-var_dump(1 <= 1.01);
-var_dump(2 >= 2);
-var_dump(2 > 2);
+<?php
+
+$appleJuice = 'apple juice is made from apples';
+
+$grapefruitJuice = str_replace('apple', 'grapefruit', $appleJuice);
+
+print ucfirst($grapefruitJuice);
+
 ?>
