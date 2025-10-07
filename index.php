@@ -1,9 +1,7 @@
 <?php
+$userNameCorrect = true;
+$passwordCorrect = false;
 
-$appleJuice = 'apple juice is made from apples';
-
-$grapefruitJuice = str_replace('apple', 'grapefruit', $appleJuice);
-
-print ucfirst($grapefruitJuice);
-
+if($userNameCorrect && $passwordCorrect)
+    print("You are now logged in");
 ?>
