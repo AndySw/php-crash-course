@@ -1,7 +1,5 @@
 <?php
-$userNameCorrect = true;
-$passwordCorrect = false;
+    print __DIR__ . "\n";
+    require_once __DIR__.'/dir/file2.php';
 
-if($userNameCorrect && $passwordCorrect)
-    print("You are now logged in");
 ?>
